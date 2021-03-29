@@ -1,0 +1,23 @@
+var theme = document.createElement("BUTTON")
+theme.innerHTML = "Green Theme  ";
+document.body.appendChild(theme);
+theme.onclick = function dark() {
+
+	document.body.style.background = "#228B22";
+};
+
+var theme = document.createElement("BUTTON")
+theme.innerHTML = "|  Blue Theme";
+document.body.appendChild(theme);
+theme.onclick = function dark() {
+
+	document.body.style.background = "#1e90ff";
+};
+
+var theme = document.createElement("BUTTON")
+theme.innerHTML = "|  Purple Theme";
+document.body.appendChild(theme);
+theme.onclick = function dark() {
+
+	document.body.style.background = "#CBC3E3";
+};
