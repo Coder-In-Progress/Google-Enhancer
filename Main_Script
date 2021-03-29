@@ -27,3 +27,12 @@ theme.onclick = function dark() {
 
 	document.body.style.background = "#CBC3E3";
 };
+
+
+var theme = document.createElement("BUTTON")
+theme.innerHTML = "|  Vantablack Theme";
+document.body.appendChild(theme);
+theme.onclick = function dark() {
+
+	document.body.style.background = "#000100";
+};
