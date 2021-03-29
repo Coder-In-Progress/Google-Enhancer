@@ -36,3 +36,13 @@ theme.onclick = function dark() {
 
 	document.body.style.background = "#000100";
 };
+var rem1 = document createElement("BUTTON")
+rem1.innerHTML="Reminder";
+document.body.appendChild(rem1)
+rem1.onclick = function add_rem() {
+    var rmd = prompt("Reminder:");
+    var d = new Date();
+    var date = d.getDate();
+    localStorage.setItem("rem2", rmd);
+    localStorage.setItem("date2", date);
+    alert(rmd);
