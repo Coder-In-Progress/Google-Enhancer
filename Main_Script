@@ -43,6 +43,7 @@ rem1.onclick = function add_rem() {
     var rmd = prompt("Reminder:");
     var d = new Date();
     var date = d.getDate();
-    localStorage.setItem("rem2", rmd);
-    localStorage.setItem("date2", date);
+    localStorage.setItem("rem1", rmd);
+    localStorage.setItem("date1", date);
     alert(rmd);
+};
