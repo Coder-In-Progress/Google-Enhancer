@@ -1,5 +1,5 @@
 /***********************************************************************
-Application    : Google Enhancment
+Application    : Google enhancement
 Author         : Coder_In_Progress
 Version        : 1.0
 ***********************************************************************/
